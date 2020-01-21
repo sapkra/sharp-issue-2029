@@ -1,0 +1,14 @@
+{
+  "name": "sharp-issue-2029",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@fiahfy/icns-convert": "0.0.8",
+    "fs-extra": "8.1.0",
+    "sharp": "0.24.0"
+  }
+}
