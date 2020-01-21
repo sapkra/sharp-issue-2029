@@ -14,3 +14,11 @@ yarn list v1.21.1
 └─ sharp@0.24.0
 ✨  Done in 0.14s.
 ```
+
+After adding a resolution to the `package.json` to force the sharp version to be the same it works fine.
+
+```json
+  "resolutions": {
+    "**/sharp": "0.24.0"
+  }
+```
